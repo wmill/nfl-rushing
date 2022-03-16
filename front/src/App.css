@@ -1,0 +1,34 @@
+.player-table__contianer {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.player-table__contianer td {
+  padding: 4px 8px;
+}
+
+.player-table__input {
+  width: 100%;
+  line-height: 24px;
+  margin: 8px;
+}
+
+.player-table__td-clickable:hover {
+  text-decoration: underline;
+}
+
+.player-table__td-clickable, .player-table__th-td {
+  min-width: 60px;
+}
+
+.player-table__data-row:nth-child(3n+2) {
+  background-color: #eee;
+}
+
+.player-table__data-row:hover {
+  background-color: #eef;
+}
+
+.player-table__loading {
+  opacity: .6;
+}
