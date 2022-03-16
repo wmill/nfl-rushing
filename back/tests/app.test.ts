@@ -1,7 +1,7 @@
 const request = require('supertest');
 import { app } from '../src/app';
 
-describe('Timezone Endpoint', () => {
+describe('Rushing Endpoint', () => {
   it('have the timezone endpoint', async () => {
     const res = await request(app)
       .get('/rushing')
