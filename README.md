@@ -58,13 +58,15 @@ If you have any questions regarding requirements, do not hesitate to email your 
 Installation:
 
 install packages
+
 in './front'
-npm i
+`npm i`
+
 in './back'
-npm i
+`npm i`
 
 To run:
 
 frontend starts with `npm start`
 
-backend starts with `npm serve`
+backend starts with `npm run serve`
